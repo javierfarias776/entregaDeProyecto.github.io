@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    overflow-x: hidden;
+}
+
+main>div{
+    justify-content: center;
+    gap: 10px;
+   row-gap: 10px; 
+}
+
+a{
+
+    cursor: pointer;
+}
+
+.modal-contenedor{
+    display: flex;
+    align-items: center;
+    gap: 2 rem;
+
+
+}
+
+.img-carrito{
+    width: 200px ;
+    padding: 20px;
+}
+.modal-content{
+    background-color: aliceblue;
+}
+.parrafo{
+    font-weight: 600;
+    font-style: italic;
+}
